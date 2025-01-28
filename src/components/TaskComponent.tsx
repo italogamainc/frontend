@@ -119,7 +119,7 @@ export const TaskComponent: React.FC = () => {
           <div className="text-center text-gray-400 items-center pt-16 flex flex-col gap-4 border-t-2 border-[#333333] rounded-lg">
             <Image src={DocumentSvg} alt="Document Icon" />
             <p className="text-[#808080] text-base font-bold">
-              You don't have any tasks registered yet.
+              You dont have any tasks registered yet.
             </p>
             <p className="text-[#808080] text-base">
               Create tasks and organize your to-do items.

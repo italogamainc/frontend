@@ -28,7 +28,7 @@ async function fetchTask(taskId: string): Promise<Task | null> {
 export default async function EditTaskPage({
   params,
 }: {
-  params: { taskId: string };
+  params: Promise<{ taskId: string }>;
 }) {
   const { taskId } = await params;
 
