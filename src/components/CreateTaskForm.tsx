@@ -6,7 +6,7 @@ import Button from "./Button";
 import { API_URL } from "@/common/api";
 import { colors } from "@/common/types";
 
-const MAX_TITLE_LENGTH = 255;
+const MAX_TITLE_LENGTH = 150;
 
 export const CreateTaskForm: React.FC = () => {
   const [title, setTitle] = useState("");

@@ -171,7 +171,7 @@ export const TaskComponent: React.FC = () => {
         onClose={closeModal}
         onConfirm={handleDelete}
         title="Delete Task"
-        message={`Are you sure you want to delete the task "${
+        message={`Are you sure you want to delete the task: "${
           taskToDelete?.title || ""
         }"?`}
       />
